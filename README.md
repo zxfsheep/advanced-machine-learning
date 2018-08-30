@@ -13,4 +13,4 @@ This is to experiment with deep learning models and record my learnings.
 
 * [Computer Vision](https://github.com/zxfsheep/deep-learning-lab/blob/master/summaries/Vision.md): Tasks such as objection detection, bounding box labeling, semantic segmentation, instance segmentation.
 
-* [Reinforment Learning](https://github.com/zxfsheep/deep-learning-lab/blob/master/summaries/RL.md): Tasks which require learning to improve performance in a random, new environment.
+* [Reinforcement Learning](https://github.com/zxfsheep/deep-learning-lab/blob/master/summaries/RL.md): Tasks which require learning to improve performance in a random, new environment.
