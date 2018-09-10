@@ -1,5 +1,5 @@
 ## Advanced Machine Learning
-This place holds my projects and paper digests for advanced machine learning techniques.
+This place holds my projects and paper notes for advanced machine learning techniques.
 
 [My Index page for all repositories.](https://github.com/zxfsheep/Index/blob/master/README.md)
 
@@ -11,7 +11,8 @@ This place holds my projects and paper digests for advanced machine learning tec
 
 ---
 
-## Summaries
+## Paper Notes
+These notes are written with my own interpretation and thoughts.
 
 * [Reinforcement Learning](https://github.com/zxfsheep/deep-learning-lab/blob/master/summaries/RL.md): Tasks which require learning to improve performance in a random, new environment.
 
