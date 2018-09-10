@@ -1,5 +1,5 @@
-## My deep learning lab
-This is to experiment with deep learning models and record my learnings.
+## Advanced Machine Learning
+This place holds my projects and paper digests for advanced machine learning techniques.
 
 [My Index page for all repositories.](https://github.com/zxfsheep/Index/blob/master/README.md)
 
