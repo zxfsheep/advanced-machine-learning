@@ -12,7 +12,7 @@ This place holds my projects and notes for advanced machine learning techniques.
 ---
 
 ## Notes
-These notes are written with my own interpretation and thoughts, with links to original papers or references.
+These actively updated notes are written with my own interpretation and thoughts, with links to original papers or references.
 
 * [Learning with unlabeled data](https://github.com/zxfsheep/advanced-machine-learning/blob/master/summaries/Learning%20with%20unlabeled%20data.md): What can we do with limited labeled data and a lot of unlabeled data? This happens all the time in real life, and labeling data has become a major bottleneck in practical machine learning. This is a direction I became interested in lately.
 
