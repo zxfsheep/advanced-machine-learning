@@ -24,6 +24,8 @@
 
 ---
 
-##Basic concepts:
+
+
+## Basic concepts:
 
 * **tf-idf**: The product of two statistics, term frequency and inverse document frequency, is a importance weight given to a word in a set of document. They can be defined in various ways, but basically term frequency describes how often it appears, and inverse document frequency describes how many documents contain the word. The intuition is that if every document contains the word, it might be so common that it does not provide much specific information.
