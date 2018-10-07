@@ -1,12 +1,18 @@
 * [**Learning from Simulated and Unsupervised Images through Adversarial Training**](https://arxiv.org/pdf/1612.07828.pdf): See [Computer Vision](https://github.com/zxfsheep/advanced-machine-learning/blob/master/summaries/Vision.md).
 
-* [**Semi-Supervised Text Classification using EM(Expectation-Maximization)**](https://www.cs.cmu.edu/~tom/pubs/NigamEtAl-bookChapter.pdf): See [NLP](https://github.com/zxfsheep/advanced-machine-learning/blob/master/summaries/NLP.md).
-
 * [**Semi-Supervised Classification with Graph Convolutional Networks**](https://arxiv.org/pdf/1609.02907.pdf) as well as [**Learning from Labeled and Unlabeled Data with Label Propagation**](http://mlg.eng.cam.ac.uk/zoubin/papers/CMU-CALD-02-107.pdf): Even though the first recent work is on neural network, while the second work is much more traditional, they have similar underlying ideas: given the graph structure with the data points as vertices,  we can train a model in a semi-supervised fashion, by propagating along the graph. This makes use of the unlabeled data, because they provide information about the graph structure, and serve as messengers to transport label information.
 
   Propagation on the graph is usually realized by an adjacency matrix. This has another interpretation as random walks on graphs. Maybe this can be made into a probabilistic method for better performance?
 
   Added: [**DeepWalk**](https://arxiv.org/pdf/1403.6652.pdf) seems to be along this line of thoughts.
+
+* [**Semi-Supervised Text Classification using EM(Expectation-Maximization)**](https://www.cs.cmu.edu/~tom/pubs/NigamEtAl-bookChapter.pdf): See [NLP](https://github.com/zxfsheep/advanced-machine-learning/blob/master/summaries/NLP.md).
+
+* [**Unsupervised Pre-training for Deep Learning**](http://www.jmlr.org/papers/volume11/erhan10a/erhan10a.pdf): This paper proposes that pre-training is a regularizer in addition to previous opinions that it is an optimizer. Two methods are discussed:
+
+    **Deep Belief Nets**: This is built by stacking Restricted Boltzmann Machines, trained layer by layer using Contrastive Divergence.
+
+    **Stacked Denoising Autoencoders**: By stacking layers and learn the identity map, we can extract useful features from the layers in the middle. There are several options: if we insert small-sized layers in the middle, they are forced to learn the most useful underlying features. If we add random noises or apply random dropouts at the beginning, then the net is forced to recover more robust and generalizable features instead of simply copying the input.
 
 * [**Combining Labeled and Unlabeled Data with Co-Training**](http://www.cs.cmu.edu/afs/cs.cmu.edu/Web/People/avrim/Papers/cotrain.pdf): The abstract idea is that, if the features of each sample can be separated into two discrete subsets, which are conditionally independent(which is a strong theoretical assumption!) given the label, then we can use them in an collaborative fashion to utilize unlabeled data, starting with a possibly very small set of labeled data. For example, a captioned picture can be separated into the caption and the image. 
 
