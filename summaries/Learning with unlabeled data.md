@@ -6,6 +6,8 @@
 
   Added: [**DeepWalk**](https://arxiv.org/pdf/1403.6652.pdf) seems to be along this line of thoughts.
 
+* **Distant Supervision for relation extraction**: See [NLP](https://github.com/zxfsheep/advanced-machine-learning/blob/master/summaries/NLP.md).
+
 * [**Semi-Supervised Text Classification using EM(Expectation-Maximization)**](https://www.cs.cmu.edu/~tom/pubs/NigamEtAl-bookChapter.pdf): See [NLP](https://github.com/zxfsheep/advanced-machine-learning/blob/master/summaries/NLP.md).
 
 * [**Unsupervised Pre-training for Deep Learning**](http://www.jmlr.org/papers/volume11/erhan10a/erhan10a.pdf): This paper proposes that pre-training is a regularizer in addition to previous opinions that it is an optimizer. Two methods are discussed:
