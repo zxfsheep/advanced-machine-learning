@@ -24,8 +24,16 @@
 
   where $V$ is the size of the vocabulary, $X_{ij}$ is the number of times word $j$ appears in the context windows of word $i$, $w_i$ is the word vector of word $i$, $\tilde w_j$ is the context word vector of word $j$, $b$'s are bias terms, and $f$ is a weight function for co-occurrences. A heuristic analysis shows that the time complexity of GloVe is $O(|C|^{0.8})$ where $C$ is the corpus.
 
-* Seq2Seq
-* WaveNet
+* **Distant supervision for relation extraction**：This is a weak supervision technique developed by [Mintz et al.](https://web.stanford.edu/~jurafsky/mintz.pdf) that utilizes an established relation instance database.  Given a text corpus, if an entity pair (for example, "Michael Jackson" and "Gary")  existent in the database appear in the same sentence, the DS assumption is that the sentence is expressing the "place of birth" relation. The lexical and syntactic features are extracted from the sentence for this entity pair. All such extracted features are then fed to a classifier, which will be used to predict new relation instances.
+
+  One issue with this basic version is that the extracted features are rather noisy. [Takamatsu et al.](https://dl.acm.org/citation.cfm?id=2390626) proposed a technique based on generative models to reduce the wrong relation labels in the data before feeding to the classifier, and thus reducing the final extraction bias. Their motivation is that, some patterns such as "moved from" often appear for an entity pair if "born in" also appears for it. Even though "moved from" does not express a "place of birth" relation, a basic distant supervision model will tend to believe that it does. The generative model takes into account of the overlapping information between patterns in the unlabeled data and attempts to model the labeling result of distant supervision before training. The fitted hidden parameters of the generative model then can be treated as confidence score of each pattern for whether it actually expresses certain relation.
+
+* [**Seq2Seq**](https://arxiv.org/abs/1703.03906): This is an encoder-decoder framework that not only works for machine translation, but also for other similar tasks that involve semantic transformation/summarization. The basic idea is to use RNN to first encode the original information, and then use another RNN to output(decode) the desired target information. The RNN network uses long-term memory cells such as **LSTM cell** or **GRU cell**. 
+
+  For translation, the words are first embedded as vectors, using techniques mention above, and fed to the encoder in reverse order, since the beginning of the sentence is the usually the first to translate. During training, the desired output is fed to the decoder lagging one step. In prediction, the output in the previous step is fed back to the decoder. To deal with varied length, an End-of-Sentence token is added to each sentence. A **Bi-directional RNN** is also used to make information flow not just in one direction. Each output is also a vector and we compute its dot product with the target word vectors in the vocabulary. This is transformed into a probability distribution via softmax function. A [**sampled softmax technique**](https://arxiv.org/pdf/1412.2007.pdf) can be used to efficiently train it by minimizing a sampled softmax loss.
+
+  Another improvement to improve accuracy is the **attention mechanism**. An attention network, which takes the context and hidden states as input, guides the decoder to peek into the input sentence and focus on relevant pieces.
+
 
 ---
 
