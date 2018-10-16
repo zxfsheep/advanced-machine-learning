@@ -5,11 +5,11 @@ This place holds my projects and notes for advanced machine learning techniques.
 
 ## Projects
 
-* [Solving BipedalWalker-v2 from the OpenAI gym using TensorFlow.](https://github.com/zxfsheep/advanced-machine-learning/blob/master/BipedalWalker-v2/BipedalWalker.ipynb) The task was solved (100 consecutive 300+ points) using an Actor-Critic style model, with some personal improvisations. In particular, a rollout estimator with a random horizon is used.
+* [Solving BipedalWalker-v2 from the OpenAI gym using TensorFlow.](https://nbviewer.jupyter.org/github/zxfsheep/advanced-machine-learning/blob/master/BipedalWalker-v2/BipedalWalker.ipynb) The task was solved (100 consecutive 300+ points) using an Actor-Critic style model, with some personal improvisations. In particular, a rollout estimator with a random horizon is used.
 
-* [Classifying Lego bricks using TensorFlow.](https://github.com/zxfsheep/advanced-machine-learning/blob/master/lego_bricks.ipynb) Many adjustments were made according to the lessons learned and mistakes found in the experiment below.
+* [Classifying Lego bricks using TensorFlow.](https://nbviewer.jupyter.org/github/zxfsheep/advanced-machine-learning/blob/master/lego_bricks.ipynb) Many adjustments were made according to the lessons learned and mistakes found in the experiment below.
 
-* [Classifying blood cell types using TensorFlow.](https://github.com/zxfsheep/advanced-machine-learning/blob/master/blood_cell.ipynb)
+* [Classifying blood cell types using TensorFlow.](https://nbviewer.jupyter.org/github/zxfsheep/advanced-machine-learning/blob/master/blood_cell.ipynb)
 
 ---
 
