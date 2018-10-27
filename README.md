@@ -22,6 +22,6 @@ These actively updated notes are written with my own interpretation and thoughts
 
 * [Computer Vision](https://github.com/zxfsheep/advanced-machine-learning/blob/master/summaries/Vision.md): Tasks such as objection detection, bounding box labeling, semantic segmentation, instance segmentation.
 
-* [Natural Language Processing](https://github.com/zxfsheep/advanced-machine-learning/blob/master/summaries/NLP.md): This is a very wide field including part of text tagging, text classification, sentiment analysis, language translation, text-to-speech, speech-to-text.
+* [Natural Language Processing](https://nbviewer.jupyter.org/github/zxfsheep/advanced-machine-learning/blob/master/summaries/NLP.ipynb): This is a very wide field including part of text tagging, text classification, sentiment analysis, language translation, text-to-speech, speech-to-text.
 
 * [Recommendation System](https://github.com/zxfsheep/advanced-machine-learning/blob/master/summaries/Recommendation.md): Predict preferences of customers based on the past behaviors as well as data of other customers. The sparsity of available data is usually a big challenge.
