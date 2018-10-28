@@ -16,7 +16,7 @@ This place holds my projects and notes for advanced machine learning techniques.
 ## Notes
 These actively updated notes are written with my own interpretation and thoughts, with links to original papers or references.
 
-* [Learning with unlabeled data](https://nbviewer.jupyter.org/github/zxfsheep/advanced-machine-learning/blob/master/summaries/Learning with unlabeled data.ipynb): What can we do with limited labeled data and a lot of unlabeled data? This happens all the time in real life, and labeling data has become a major bottleneck in practical machine learning. This is a direction I became interested in lately.
+* [Learning with unlabeled data](https://nbviewer.jupyter.org/github/zxfsheep/advanced-machine-learning/blob/master/summaries/Learning_with_unlabeled_data.ipynb): What can we do with limited labeled data and a lot of unlabeled data? This happens all the time in real life, and labeling data has become a major bottleneck in practical machine learning. This is a direction I became interested in lately.
 
 * [Reinforcement Learning](https://github.com/zxfsheep/advanced-machine-learning/blob/master/summaries/RL.md): Tasks which require learning to improve performance in a random, new environment.
 
