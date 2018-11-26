@@ -20,7 +20,7 @@ These actively updated notes are written with my own interpretation and thoughts
 
 * [Reinforcement Learning](https://github.com/zxfsheep/advanced-machine-learning/blob/master/summaries/RL.md): Tasks which require learning to improve performance in a random, new environment.
 
-* [Computer Vision](https://github.com/zxfsheep/advanced-machine-learning/blob/master/summaries/Vision.md): Tasks such as objection detection, bounding box labeling, semantic segmentation, instance segmentation.
+* [Computer Vision](https://github.com/zxfsheep/advanced-machine-learning/blob/master/summaries/Vision.ipynb): Tasks such as objection detection, bounding box labeling, semantic segmentation, instance segmentation.
 
 * [Natural Language Processing](https://nbviewer.jupyter.org/github/zxfsheep/advanced-machine-learning/blob/master/summaries/NLP.ipynb): This is a very wide field including part of text tagging, text classification, sentiment analysis, language translation, text-to-speech, speech-to-text, relation extraction, etc.
 
